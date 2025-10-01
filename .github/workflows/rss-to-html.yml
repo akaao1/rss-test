@@ -1,0 +1,32 @@
+name: Convert RSS to HTML
+
+on:
+  push:
+    paths:
+      - 'docs/important.rdf'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install feedparser
+
+      - name: Convert RSS to HTML
+        run: python scripts/rss_to_html.py
+
+      - name: Commit HTML
+        run: |
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
+          git add docs/index.html
+          git commit -m "Update HTML from RSS"
+          git push
