@@ -1,0 +1,40 @@
+<rdf:RDF xmlns="http://purl.org/rss/1.0/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xml:lang="ja">
+<channel rdf:about="http://www.mlit.go.jp/important.rdf">
+<title>国土交通省ホームページ重要なお知らせ</title>
+<link>http://www.mlit.go.jp/</link>
+<description>国土交通省ホームページ重要なお知らせ</description>
+<dc:language>ja-jp</dc:language>
+<items>
+<rdf:Seq>
+<rdf:li rdf:resource="http://www.mlit.go.jp/page/re_000075756.html"/>
+<rdf:li rdf:resource="http://www.mlit.go.jp/saigai/bousai-gensai_re.html"/>
+<rdf:li rdf:resource="http://www.mlit.go.jp/page/re_pdf20140325.html"/>
+<rdf:li rdf:resource="http://www.mlit.go.jp/saigai/20181214_chen_re.html"/>
+</rdf:Seq>
+</items>
+</channel>
+<item rdf:about="http://www.mlit.go.jp/page/re_000075756.html">
+<title>東日本大震災からの復旧･復興に向けた取組 </title>
+<link>http://www.mlit.go.jp/page/re_000075756.html</link>
+<dc:creator>国土交通省</dc:creator>
+<dc:date>2015-03-11T05:00:00+09:00</dc:date>
+</item>
+<item rdf:about="http://www.mlit.go.jp/saigai/bousai-gensai_re.html">
+<title>国土交通省 水災害に関する防災・減災対策本部</title>
+<link>http://www.mlit.go.jp/saigai/bousai-gensai_re.html</link>
+<dc:creator>国土交通省</dc:creator>
+<dc:date>2015-01-26T05:00:00+09:00</dc:date>
+</item>
+<item rdf:about="http://www.mlit.go.jp/page/re_pdf20140325.html">
+<title>土砂災害から身を守るために知っていただきたいこと</title>
+<link>http://www.mlit.go.jp/page/re_pdf20140325.html</link>
+<dc:creator>国土交通省</dc:creator>
+<dc:date>2014-03-25T05:00:00+09:00</dc:date>
+</item>
+<item rdf:about="http://www.mlit.go.jp/saigai/20181214_chen_re.html">
+<title>チェーン規制について（Q＆A）</title>
+<link>http://www.mlit.go.jp/saigai/20181214_chen_re.html</link>
+<dc:creator>国土交通省</dc:creator>
+<dc:date>2014-03-01T05:00:00+09:00</dc:date>
+</item>
+</rdf:RDF>
